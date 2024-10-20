@@ -18,7 +18,7 @@ struct CustomListTile: View {
         LabeledContent {
             Text(value)
                 .foregroundColor(.black)
-                .fontWeight(.heavy)
+                .fontWeight(.bold)
         } label: {
             HStack {
                 ZStack {

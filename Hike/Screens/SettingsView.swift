@@ -79,10 +79,38 @@ struct SettingsView: View {
                     )
                     
                     CustomListTile(
-                        leadingIcon: "apps.iphone",
-                        leadingColor: .blue,
-                        label: "Application",
-                        value: "HIKE"
+                        leadingIcon: "swift",
+                        leadingColor: .orange,
+                        label: "Technology",
+                        value: "Swift"
+                    )
+                    
+                    CustomListTile(
+                        leadingIcon: "gear",
+                        leadingColor: .purple,
+                        label: "Version",
+                        value: "1.0"
+                    )
+                    
+                    CustomListTile(
+                        leadingIcon: "ellipsis.curlybraces",
+                        leadingColor: .mint,
+                        label: "Developer",
+                        value: "Mario Martins"
+                    )
+                    
+                    CustomListTile(
+                        leadingIcon: "paintpalette",
+                        leadingColor: .pink,
+                        label: "Designer",
+                        value: "Diego Antunes"
+                    )
+                    
+                    CustomListTile(
+                        leadingIcon: "globe",
+                        leadingColor: .indigo,
+                        label: "Website",
+                        value: "www.yara.com"
                     )
                     
                 }
